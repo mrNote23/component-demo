@@ -14,4 +14,4 @@ setInterval(() => {
   document.getElementsByTagName("main-app")[0].props.bgimage =
     bgImages[bgIndex];
   bgIndex = bgIndex === bgImages.length - 1 ? 0 : bgIndex + 1;
-}, 1000);
+}, 10000);
