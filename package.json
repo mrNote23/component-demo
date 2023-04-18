@@ -1,0 +1,17 @@
+{
+  "name": "typescript",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx parcel ./index.html --no-cache",
+    "build": "npx parcel build ./index.html --no-source-maps"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "parcel-transformer-hbs": "^1.0.4",
+    "typescript": "^5.0.4"
+  }
+}
